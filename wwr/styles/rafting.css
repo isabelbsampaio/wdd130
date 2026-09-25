@@ -66,16 +66,8 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #e3dddd;
     /* white text – make sure there is enough contrast with the background-color */
-}
-
-article {
-    position: absolute;
-    background-color: #e7e0e0;
-    top: 20%;
-    left: 10%;
-
 }
 
 .hero article {
@@ -83,6 +75,7 @@ article {
     background-color: #e7e0e0;
     top: 20%;
     left: 10%;
+
 }
 
 .hero article img {
