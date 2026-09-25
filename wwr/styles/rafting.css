@@ -1,12 +1,8 @@
 :root {
-    --primary-color: #00c8da;
+    --primary-color: #f7f9f9;
     /* titulos */
-    --secondary-color: #f46172;
-    /* warm sand */
     --accent1-color: #4c556f;
     /* textos ou p */
-    --accent2-color: #b86ae9;
-    /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -33,6 +29,9 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: #1c25a1;
+    text-align: center;
+    padding: 15px;
 }
 
 nav,
@@ -41,6 +40,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
 }
 
 .socialmedia a {
