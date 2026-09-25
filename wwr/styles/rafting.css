@@ -73,12 +73,13 @@ h1 {
 article {
     position: absolute;
     background-color: #e7e0e0;
-    top: 70%;
+    top: 20%;
     left: 10%;
 
 }
 
 .hero article img {
+    position: absolute;
     float: right;
     width: 125px;
     border: 1px solid #d2c3c3;
