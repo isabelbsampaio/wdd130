@@ -41,7 +41,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: left;
+    margin-left: 10px;
 }
 
 p {
@@ -54,7 +54,7 @@ main {
 
 aside {
     position: relative;
-    width: 20rem;
+    width: 320px;
     text-align: var(--text-align);
 }
 
