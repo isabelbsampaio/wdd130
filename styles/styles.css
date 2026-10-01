@@ -17,9 +17,6 @@ header,
 }
 
 nav {
-    /* background-color: var(--background-color); */
-    /* padding: 10px; */
-
     background-color: steelblue;
     padding: 1rem;
     display: flex;
@@ -33,9 +30,6 @@ nav a {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
-    /* font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff; */
 
 }
 
@@ -90,8 +84,6 @@ footer {
     border-top: 1px solid #000;
     text-align: var(--text-align);
 }
-
-/* "Class Selectors" */
 
 .box {
     margin: 1rem;
