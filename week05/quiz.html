@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>Quiz About Your Hobbies!</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label>1. What is your favorite hobbie?
+                    <input type="text" id="q1" name="q1"></label>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q2">2. What do you like most about it?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q3">3. Which of these fits best with your hobbie?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One</option>
+                    <option value="backpack">Backpack</option>
+                    <option value="swimsuit">Swimsuit</option>
+                    <option value="workout clothes">Workout Clothes</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q4">4. Just pick one.</label>
+                <code class="box">margin: 10px 5px 15px</code>
+                <input type="number" id="q1" name="q1">
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
