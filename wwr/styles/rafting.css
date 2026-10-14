@@ -138,6 +138,17 @@ h1 {
 }
 
 .adventure h2 {
+    grid-column: 1 / 6;
+    text-align: space-center;
+}
+
+.employee {
+    display: grid;
+    margin: 5px;
+    padding: 20px;
+}
+
+.employee h2 {
     grid-column: 1 / 4;
     text-align: space-center;
 }
