@@ -267,15 +267,23 @@ fieldset {
 }
 
 .trip-table-section {
-    background-color: #4719bd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f8f7;
 }
 
 .trip-table-section h2 {
-    color: #dcd9e3;
+    font-size: 2rem;
+    color: #123b4a;
 }
 
 .trip-table-section h3 {
-    color: #a79ebc;
+    color: #45666c;
+}
+
+.table th,
+.table td {
+    padding: 10px;
 }
 
 .table-wrapper {
