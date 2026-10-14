@@ -148,9 +148,17 @@ h1 {
     padding: 20px;
 }
 
-.employee h2 {
+.employee h2,
+.offerings h2 {
     grid-column: 1 / 4;
     text-align: center;
+}
+
+.offerings {
+    display: grid;
+    background-color: #bedbe0;
+    margin: 5px;
+    padding: 20px;
 }
 
 footer {
@@ -235,4 +243,41 @@ fieldset {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #89afb5;
+}
+
+.discover {
+    text-align: center;
+    background-color: #bedbe0;
+    padding: 25px;
+    margin: 20px 16px;
+}
+
+.discover h2 {
+    margin: 5px;
+    padding: 20px;
+}
+
+.trip-descriptions {
+    background-color: #1c2122;
+
+}
+
+.trip-descriptions p {
+    color: #e7e0e0;
+}
+
+.trip-table-section {
+    background-color: #4719bd;
+}
+
+.trip-table-section h2 {
+    color: #dcd9e3;
+}
+
+.trip-table-section h3 {
+    color: #a79ebc;
+}
+
+.table-wrapper {
+    background-color: #c3b4e7;
 }
